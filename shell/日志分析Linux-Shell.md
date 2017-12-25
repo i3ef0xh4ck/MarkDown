@@ -13,3 +13,8 @@ tail -50 /opt/ubh/ubh-wxa/ubh-wxa.log
 # 打印第n行起的100行
 sed -n 'n,n+99p' /opt/ubh/ubh-wxa/ubh-wxa.log
 ```
+
+## 根据关键字查询最后匹配的行
+```shell
+cat -n /opt/ubh/ubh-wxa/ubh-wxa.log |grep "卖出的商品" |tail -1
+```
