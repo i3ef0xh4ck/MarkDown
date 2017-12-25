@@ -23,3 +23,5 @@ cat -n /opt/ubh/ubh-wxa/ubh-wxa.log |grep "卖出的商品" |tail -1
 ```shell
 cat -n /opt/ubh/ubh-wxa/ubh-wxa.log |grep "卖出的商品" |more
 ```
+## 参考
+[Linux 查找日志常用命令和技巧](http://okeeper.leanote.com/post/linux-%E6%9F%A5%E6%89%BE%E6%97%A5%E5%BF%97%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E5%92%8C%E6%8A%80%E5%B7%A7)
