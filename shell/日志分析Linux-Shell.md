@@ -1,11 +1,11 @@
 ## 检索关键字
-```shell
+```bash
 # 检索所有关键字所在行的行数
 cat -n /opt/ubh/ubh-wxa/ubh-wxa.log |grep "卖出的商品"
 ```
 
 ## 打印前几行、后几行及中间一段
-```shell
+```bash
 # 打印前50行
 head -50 /opt/ubh/ubh-wxa/ubh-wxa.log
 # 打印后50行
