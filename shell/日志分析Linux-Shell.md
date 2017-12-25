@@ -18,3 +18,8 @@ sed -n 'n,n+99p' /opt/ubh/ubh-wxa/ubh-wxa.log
 ```shell
 cat -n /opt/ubh/ubh-wxa/ubh-wxa.log |grep "卖出的商品" |tail -1
 ```
+
+## 关键字检索分屏显示
+```shell
+cat -n /opt/ubh/ubh-wxa/ubh-wxa.log |grep "卖出的商品" |more
+```
